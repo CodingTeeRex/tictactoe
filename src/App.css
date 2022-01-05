@@ -1,0 +1,107 @@
+.App {
+  overflow: hidden;
+}
+
+#logo {
+  width: 70px;
+  margin-left: 30px;
+  margin-right: 5rem;
+}
+
+
+ul {
+  margin-top: 1rem;
+  margin-left: 2.5rem;
+}
+
+li {
+  display: inline-block;
+  min-width: fit-content;
+  text-decoration: none;
+}
+
+#nav-toggler {
+  margin-right: 1rem;
+  margin-left: 2.5rem;
+}
+
+.nav-link-unstyled {
+  text-decoration: none;
+}
+
+.nav-link-dropdown {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link-unstyled:hover {
+  transition: all 300ms ease-in-out;
+  color: white;
+  transform: scale(1.15);
+}
+
+tr, td {
+  border: 1px solid black;
+  width: 110px;
+  height: 110px;
+}
+
+.game-info {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  text-align: center;
+}
+
+#game-board {
+  width: 100%;
+}
+
+#game-piece {
+  width: 90px;
+}
+
+
+.radio-select-game-piece {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.radio-select-game-piece input[type="radio"] {
+  display: none;
+}
+
+.radio-select-game-piece input[type="radio"] + label {
+  border: 5px solid black;
+  border-radius: 50px;
+  margin: 2rem;
+  padding: 1rem;
+  background: rgb(228, 228, 228);
+}
+
+.radio-select-game-piece input[type="radio"]:checked + label {
+  transform: scale(1.15);
+  background: grey;
+  transition: all 150ms ease-out;
+}
+
+label > img {
+  width: 150px;
+}
+
+@media (min-width: 809px) {
+  #game-piece {
+    width: 220px;
+  }
+
+  td {
+    height: 250px;
+    min-width: 250px;
+  }
+}
