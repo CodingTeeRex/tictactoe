@@ -4,4 +4,4 @@ This application utilises the [minimax](https://en.wikipedia.org/wiki/Minimax) a
 
 The application is built using [React](https://reactjs.org/) and styled using [reactstrap](https://reactstrap.github.io/?path=/story/home-installation--page).
 
-You can try the application [here](https://codingteerex.github.io/tictactoe/vsComputer)!
+You can try the application [here](https://codingteerex.github.io/tictactoe/)!
